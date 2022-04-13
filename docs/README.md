@@ -2,7 +2,7 @@
 home: true
 heroText: kore3lab 기술블로그
 tagline: 아콘소프트 kore3lab의 기술블로그 입니다.
-#  heroImage: public/hero.png
+#  heroImage: images/hero.png
 #  heroImageStyle: {
 #    maxWidth: '600px',
 #    width: '100%',
