@@ -16,9 +16,9 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: '게시판', link: '/notice/', icon: 'reco-tongzhi'},
-      { text: '블로그', link: '/blog/', icon: 'reco-document'},
-      { text: '타임라인', link: '/timeline/', icon: 'reco-date' },
+      { text: '게시판', link: '/notice/', /*icon: 'reco-tongzhi'*/},
+      { text: '블로그', link: '/blog/', /*icon: 'reco-document'*/},
+      { text: '타임라인', link: '/timeline/', /*icon: 'reco-date'*/ },
       { text: '깃허브', link: 'https://github.com/kore3lab', icon: 'reco-github' }
     ],
     subSidebar:'auto', //오른쪽에 하위 사이드바 생성
@@ -29,11 +29,11 @@ module.exports = {
     blogConfig: {
       tag: {
         location: 2, // 네비게이션 메뉴에서 차지하는 위치, 왼쪽에서 4번째 
-        text: 'Tag' // 기본 "태그"
+        text: '태그' // 기본 "태그"
       },
       category: {
         location: 4, // 네비게이션 메뉴에서 차지하는 위치, 왼쪽에서 2번째
-        text: 'Category' // 기본 "카테고리"
+        text: '작성자' // 기본 "카테고리"
       }
     },
     /*friendLink: [ //blog 타입일 때 표시됨
@@ -44,7 +44,7 @@ module.exports = {
         link: ''
       },
     ],*/
-    logo: '/logo.png',
+    logo: '/logo.png', //네비게이션 로고
     noFoundPageByTencent: false, // 404 에러이미지 비활성화
     // 검색설정
     search: true,

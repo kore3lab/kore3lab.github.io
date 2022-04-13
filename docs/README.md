@@ -16,7 +16,7 @@ bgImageStyle: {
 }
 isShowTitleInHome: false
 actionText: 블로그 #버튼텍스트
-actionLink: /notice/
+actionLink: /blog/
 features:
 - title: 제목1
   details: 안녕하세요, 아콘소프트입니다.(임시)
