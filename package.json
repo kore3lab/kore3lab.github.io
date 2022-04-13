@@ -1,7 +1,7 @@
 {
   "name": "kore3lab-techblog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "acornsoft",
   "scripts": {
     "dev": "vuepress dev docs --host \"localhost\"",
     "build": "vuepress build docs"
