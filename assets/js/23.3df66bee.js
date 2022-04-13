@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{586:function(t,e,s){"use strict";s.r(e);var n=s(13),l=Object(n.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("sample3 리드미")])])}),[],!1,null,null,null);e.default=l.exports}}]);
