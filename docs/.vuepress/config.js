@@ -22,14 +22,8 @@ module.exports = {
       { text: '깃허브', link: 'https://github.com/kore3lab', icon: 'reco-github' }
     ],
     subSidebar:'auto', //오른쪽에 하위 사이드바 생성
-    sidebar: {
-      '/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
-      ]
-    },  
+    sidebar: require("./sidebar"),  
+    
     //type: 'blog', //블로그 타입
     // 블로그설정
     blogConfig: {
