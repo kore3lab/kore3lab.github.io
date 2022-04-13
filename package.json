@@ -7,6 +7,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
