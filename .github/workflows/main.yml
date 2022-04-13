@@ -1,0 +1,20 @@
+name: Build and Deploy
+on: [push] # push 이벤트 발생시
+
+jobs: # 이 작업을 수행한다. 
+  build-and-deploy: # 작업이름: build-and-deploy
+    runs-on: ubuntu-latest # 일반적으로 우분투에서 실행되나 node환경도 추가가능
+
+    steps: # 작업순서(단계적으로 동작)
+    - name: Checkout
+      uses: actions/checkout@v2 # 워크플로우에서 액세스할 수 있도록 저장소 체크아웃
+
+    - name: Install and Build
+      run: yarn && yarn build
+
+    - name: Deploy # 작업이름
+      uses: JamesIves/github-pages-deploy-action@releases/v3 
+      with:
+        branch: gh-pages
+        folder: public
+ 
