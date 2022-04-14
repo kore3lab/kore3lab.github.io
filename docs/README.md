@@ -2,15 +2,16 @@
 home: true
 heroText: kore3lab 기술블로그
 tagline: 아콘소프트 kore3lab의 기술블로그 입니다.
-#  heroImage: images/hero.png
-#  heroImageStyle: {
-#    maxWidth: '600px',
-#    width: '100%',
-#    display: block,
-#    margin: '9rem auto 2rem',
-#    background: '#fff',
-#    borderRadius: '1rem',
-#  }
+heroImage: images/tmp_main.png
+heroImageStyle: {
+  #maxWidth: '600px',
+  maxHeight: '280px',
+  #width: '100%',
+  display: block,
+  margin: '9rem auto 2rem',
+  background: '#fff',
+  borderRadius: '1rem',
+}
 bgImageStyle: {
   height: '450px'
 }

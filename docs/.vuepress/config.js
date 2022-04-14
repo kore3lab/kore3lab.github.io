@@ -9,7 +9,7 @@ module.exports = {
   description: 'Hello, I am kore3lab techblog', //로딩중 뜨는 문장
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: 'images/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -52,7 +52,7 @@ module.exports = {
     // sidebar: 'auto', //단일페이지 sidebar 자동생성 
     lastUpdated: 'Last Updated',// 마지막 업데이트 시간
     author: 'acornsoft', //기본작성자
-    authorAvatar: 'images/avatar.png', //작성자 프로필 이미지, 블로그 타입시 표시
+    //authorAvatar: 'images/avatar.png', //작성자 프로필 이미지, 블로그 타입시 표시
     record: 'xxxx',//등록번호(footer)
     startYear: '2022'//프로젝트 기간(footer)
 
