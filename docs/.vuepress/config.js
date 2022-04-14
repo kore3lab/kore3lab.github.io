@@ -1,10 +1,10 @@
 module.exports = {
   base:'/', //css 에러방지
-  // locales:{// 언어설정
-  //   '/': {
-  //     lang: 'ko-KR' //한국어
-  //   }
-  // },
+  locales:{// 언어설정
+    '/': {
+      lang: 'ko-KR' //한국어
+    }
+  },
   title: "kore3lab 기술블로그",//블로그 제목
   description: 'Hello, I am kore3lab techblog', //로딩중 뜨는 문장
   dest: 'public',
@@ -65,6 +65,9 @@ module.exports = {
     */
   },
   markdown: {
-    lineNumbers: true // 포스팅 코드에 번호붙음
-  }
+    lineNumbers: true // 코드에 번호붙음
+  },
+  plugins:[
+    'vuepress-plugin-code-copy' // code 복사 플러그인
+  ]
 }  
