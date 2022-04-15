@@ -107,8 +107,8 @@ export default defineComponent({
   color var(--text-color)
   transition color .15s ease
   cursor pointer
-  font-size 1em
-  font-weight 500
+  font-size 1.1em //1em
+  font-weight 700 //500
   padding 0.35rem 1.5rem 0.35rem 1.25rem
   width 100%
   box-sizing border-box

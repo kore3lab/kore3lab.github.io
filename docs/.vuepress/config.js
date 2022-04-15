@@ -52,7 +52,7 @@ module.exports = {
     // sidebar: 'auto', //단일페이지 sidebar 자동생성 
     lastUpdated: 'Last Updated',// 마지막 업데이트 시간
     author: 'acornsoft', //기본작성자
-    //authorAvatar: 'images/avatar.png', //작성자 프로필 이미지, 블로그 타입시 표시
+    //authorAvatar: '/images/avatar.png', //작성자 프로필 이미지, 화면 축소시 메뉴바 누르면 보임
     record: 'xxxx',//등록번호(footer)
     startYear: '2022'//프로젝트 기간(footer)
 

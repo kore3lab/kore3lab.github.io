@@ -54,7 +54,7 @@ export default defineComponent({
   list-style none
   font-size 12px
   li
-    padding .2rem 0
+    //padding .2rem 0 //subsidebar 줄간격 줄이기
     cursor pointer
     border-left 1px solid var(--border-color)
     a
@@ -70,7 +70,7 @@ export default defineComponent({
     &.level-1
       padding-left .4rem
     &.level-2
-      padding-left .9rem
+      padding-left .8rem //.9rem
     &.level-3
       padding-left 1.5rem
 </style>
