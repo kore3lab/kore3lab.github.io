@@ -2,7 +2,7 @@
 title: 사이드바 항목 자동화시키기
 date: 2022-04-10
 tags:
- - 커스터마이징
+ - Develop
 author: 김철수
 categories: 김철수
 ---

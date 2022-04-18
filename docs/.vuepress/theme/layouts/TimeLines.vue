@@ -49,7 +49,7 @@ export default defineComponent({
       const dateObj = new Date(date)
       const mon = dateObj.getMonth() + 1
       const day = dateObj.getDate()
-      return `${mon}-${day}`
+      return `${mon}월 ${day}일` //월-일 표시 수정
     }
 
     return { go, dateFormat }
@@ -126,7 +126,7 @@ export default defineComponent({
           }
         }
         .date {
-          width 40px
+          width 60px //기본 40px
           line-height 30px
           color var(--text-color-sub)
           font-size 12px

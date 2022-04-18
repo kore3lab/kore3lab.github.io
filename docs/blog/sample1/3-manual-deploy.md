@@ -2,7 +2,7 @@
 title: 깃허브에 배포하기
 date: 2022-03-20
 tags:
- - 태그2
+ - 배포
 author: 양세모
 categories: 양세모
 ---
