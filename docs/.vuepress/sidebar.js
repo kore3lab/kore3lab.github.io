@@ -15,11 +15,6 @@ module.exports={
       title: "샘플3",
       collapsable: false, // 사이드바 펼치기
       children: getSideBar("blog/sample3")
-    },
-    {
-      title: "샘플4",
-      collapsable: false, // 사이드바 펼치기
-      children: getSideBar("blog/sample4")
     }
   ]
 }
