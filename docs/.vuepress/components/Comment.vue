@@ -20,3 +20,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.utterances {
+    max-width: 100% !important;
+}
+</style>
