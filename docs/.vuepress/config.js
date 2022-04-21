@@ -53,7 +53,7 @@ module.exports = {
     lastUpdated: 'Last Updated',// 마지막 업데이트 시간
     author: 'acornsoft', //기본작성자
     //authorAvatar: '/images/avatar.png', //작성자 프로필 이미지, 화면 축소시 메뉴바 누르면 보임
-    record: 'xxxx',//등록번호(footer)
+    //record: 'xxxx',//등록번호(footer)
     startYear: '2022'//프로젝트 기간(footer)
 
     /* 암호 (if your blog is private) // 블로그 비공개시 사용 
